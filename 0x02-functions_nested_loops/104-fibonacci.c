@@ -18,7 +18,7 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		length + 1;
+		length += 1;
 	}
 
 	return (length);
@@ -41,8 +41,8 @@ int main(void)
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
-			printf("%lu", flo);
-		initial0s = numLength(mx) - 1 numLength(f1);
+			printf("%lu", f1o);
+		initial0s = numLength(mx) - 1 - numLength(f1);
 
 		while (f1o > 0 && initial0s > 0)
 		{
